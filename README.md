@@ -6,6 +6,7 @@ The motivation of this project was to practice natural language processing skill
 
 ## Results
 ### Training output
+```
 Epoch 1/100
 585/585 - 2s - loss: 0.6822 - accuracy: 0.5589 - val_loss: 0.6623 - val_accuracy: 0.5617
 Epoch 2/100
@@ -72,11 +73,14 @@ Epoch 32/100
 585/585 - 1s - loss: 0.0296 - accuracy: 0.9914 - val_loss: 0.9484 - val_accuracy: 0.8030
 Restoring model weights from the end of the best epoch.
 Epoch 00032: early stopping
+```
 
 ### Testing output
 Evaluation
+```
 Loss: 0.34005293250083923
 Accuracy: 0.8577489256858826
+```
 
 ### Training Graph
 ![Results Graph](/results_graphs/results.png)
