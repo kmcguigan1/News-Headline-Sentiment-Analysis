@@ -1,6 +1,11 @@
-# News-Headline-Sentiment-Analysis
-This is inspired by the TensorFlow youtube channel, and analyzes new headlines to try and detect weather a headline is sarcastic or not. This repository has code demonstrating a few different functions such as the basic tokenization of words, the conversion of sentences to workable data, and finally the sentiment analysis of text.
+# News Headline Sentiment Analysis
+This project is meant to use the google headline dataset, and to learn to determine if a new headline is sarcastic or not. This repository has a couple different files illustrating diffrent skills. These are word tokenization, the transformation of scentences of text to sequences, and finally the file that incorperates all thsese ideas and runs the data through a model, predicting the sentiments of the reviews.
 
+## Motivation
+The motivation of this project was to practice natural language processing skills. It was about learning the techniques used to transform text data into a format that can be used in a tensorflow model, and can therefore be trained to classify text.
+
+## Results
+### Training output
 Epoch 1/100
 585/585 - 2s - loss: 0.6822 - accuracy: 0.5589 - val_loss: 0.6623 - val_accuracy: 0.5617
 Epoch 2/100
@@ -68,8 +73,15 @@ Epoch 32/100
 Restoring model weights from the end of the best epoch.
 Epoch 00032: early stopping
 
-126/126 [==============================] - 0s 696us/step - loss: 0.3401 - accuracy: 0.8577
-
+### Testing output
 Evaluation
 Loss: 0.34005293250083923
 Accuracy: 0.8577489256858826
+
+### Training Graph
+![Results Graph](/results_graphs/results.png)
+
+## Credits
+Credits to the tensorflow youtube channel for this project idea and tutorial on natural language processing practices (https://www.youtube.com/channel/UC0rqucBdTuFTjJiefW5t-IQ)
+
+Credits to google apis for the dataset (https://storage.googleapis.com/laurencemoroney-blog.appspot.com/sarcasm.json)
